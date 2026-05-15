@@ -1,17 +1,18 @@
-# Quartz v4
+# Msquare Garden
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+This is a Quartz-based personal site for notes, projects, and portfolio materials.
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+## Quick Start
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+1. Update `baseUrl` in `quartz.config.ts`
+2. Push this repository to your own GitHub repo
+3. In GitHub `Settings -> Pages`, set `Source` to `GitHub Actions`
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+Detailed steps are in [DEPLOYMENT.md](/Users/msquare/Documents/Codex/2026-05-07/new-chat-4/DEPLOYMENT.md).
 
-## Sponsors
+## Local Preview
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+```bash
+npm install
+npx quartz build --serve
+```
